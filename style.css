@@ -1,0 +1,66 @@
+body{
+    max-width: 1124px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.signUp{
+    display: flex;
+    align-items: center;
+    width: 134px;
+    justify-content: space-around;
+}
+.signIn{
+    width: 78px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+.hero{
+    background-image: url(./assets/image/photo.png);
+    height: 364px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    background-color: white;
+    width: 389px;
+    height: 204px;
+    margin-left: 80px;
+}
+h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    color: #1d1d1d;
+}
+.hero-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+    display: inline;
+    margin: 38px;
+}
+.hero-time{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    background: #262626;
+    border-radius: 16px;
+    width: 100px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 38px;
+}
