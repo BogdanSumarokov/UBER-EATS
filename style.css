@@ -8,6 +8,10 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 72px;
+    width: 1124px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
 }
 .signUp{
     display: flex;
@@ -124,4 +128,120 @@ h1{
     font-size: 15px;
     line-height: 21px;
     color: #1D1D1D;
+}
+.border{
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+.footer{
+    max-width: 1124px;
+    background: #262626;
+}
+.white-logo{
+    margin: 56px 0px 40px;
+}
+.footer-info{
+    max-width: 956px;
+    margin: 0 auto;
+}
+.language{
+    background: #3B3B3B;
+    border-radius: 2px;
+    width: 227px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 32px;
+}
+.language>img{
+    margin-left: 30px;
+}
+.uber{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+span{
+    color: #49A144;
+}
+.socia{
+    width: 96px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 33px 0px 55px;
+}
+.partner-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.partner-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+.partner-list{
+    margin: 0px 0px 23px;
+}
+.help-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.help-list{
+    margin: 0px 0px 23px;
+}
+.help-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;   
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+}
+.partner{
+    margin: 35px 134px 0px 97px;
+}
+.help{
+    margin: 35px;
+}
+.app{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ios{
+    margin-right: 40px;
+}
+.copy{
+    display: flex;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+.footerText{
+    margin: 40px 0px 40px;
+}
+.button{
+    display: flex;
+    justify-content: end;
+}
+.Up{
+    position: fixed;
+    bottom: 24px;
 }
