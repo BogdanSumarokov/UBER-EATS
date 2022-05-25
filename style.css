@@ -64,3 +64,23 @@ h1{
     align-items: center;
     margin: 38px;
 }
+.menu{
+    width: 1124px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.menu-ul{
+    display: flex;
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+}
+.hero-link{
+    color: #327430;
+}
