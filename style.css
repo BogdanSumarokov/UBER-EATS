@@ -65,10 +65,12 @@ h1{
     margin: 38px;
 }
 .menu{
-    width: 1124px;
+    max-width: 1124px;
     height: 80px;
     display: flex;
     align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
 }
 .menu-ul{
     display: flex;
@@ -83,4 +85,43 @@ h1{
 }
 .hero-link{
     color: #327430;
+}
+.headerFood{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    margin: 56px auto 32px 81px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 470px;
+    height: 160px;
+    display: flex;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    margin: 8px;
+    justify-content: space-between;
+}
+.card-text{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.food-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.food-price{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
 }
